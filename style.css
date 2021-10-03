@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@700&display=swap');
+
+body {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	margin: 0;
+	padding: 0;
+	background-image: url('img/bg.jpg');
+	background-size: cover;
+}
+
+.caption{
+	font-size: 60px;
+	font-family: 'PT Sans', sans-serif;
+	color: white;
+	text-shadow: black 0 0 2px;
+	margin-bottom: 3vh;
+}
+
+.countdown {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.time-section {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	font-family: sans-serif;
+	padding: 0 30px;
+	border-right: 2px solid white;
+}
+
+.time-section-last{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color: #3b3a6e;
+	font-family: sans-serif;
+	padding: 0 30px;
+	border-right: 0px solid white;
+}
+
+.count {
+	font-size: 50px;
+	font-family: 'PT Sans', sans-serif;
+	color: white;
+	text-shadow: black 0 0 2px;
+}
+
+.units {
+	font-size: 15px;
+	font-family: 'PT Sans', sans-serif;
+	text-shadow: black 0 0 2px;
+	color: white;
+}
